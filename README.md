@@ -13,13 +13,18 @@ It helps agents draft and execute a thoughtful engagement workflow after a Linke
 - next-day reply sweep
 - UI verification before reporting completion
 
-## Install in Hermes Agent
+## How to use it
+
+There are three easy ways to use this skill.
+
+### 1. Use it in Hermes Agent
 
 Clone or download this repo, then copy the skill into your Hermes skills directory:
 
 ```bash
+git clone https://github.com/Alice-Wonder-How/linkedin-engagement-skill.git
 mkdir -p ~/.hermes/skills/social-media/linkedin-engagement-playbook
-cp SKILL.md ~/.hermes/skills/social-media/linkedin-engagement-playbook/SKILL.md
+cp linkedin-engagement-skill/SKILL.md ~/.hermes/skills/social-media/linkedin-engagement-playbook/SKILL.md
 ```
 
 Start a new Hermes session and load it:
@@ -28,17 +33,46 @@ Start a new Hermes session and load it:
 hermes -s linkedin-engagement-playbook
 ```
 
-Or ask Hermes to use it when working on LinkedIn comments, first comments, DMs, or post-publication engagement workflows.
+Example prompt:
 
-## Use with Claude / ChatGPT / other assistants
+```text
+Use the linkedin-engagement-playbook skill. My LinkedIn post just went live: [paste link or post text].
+Help me draft:
+1. a first comment
+2. adjacent LinkedIn comment angles
+3. DMs to relevant first-degree connections asking for perspective
+4. a next-day reply sweep plan
+```
 
-The skill is plain Markdown. You can paste or upload `SKILL.md` into any assistant and ask it to follow the workflow.
+### 2. Use it with Claude, ChatGPT, or another assistant
+
+The skill is plain Markdown. You can open `SKILL.md`, copy/paste it into any assistant, or upload the file.
 
 Example prompt:
 
 ```text
-Read this LinkedIn engagement skill and follow it. Help me create a post-publication engagement workflow for this LinkedIn post: [paste post/link]
+Read this LinkedIn engagement skill and follow it.
+Here is my LinkedIn post: [paste post/link].
+Create a post-publication engagement plan with:
+- one first comment
+- 8 adjacent comment drafts
+- 10 DM drafts that ask for perspective, not engagement
+- a safe posting/DM cadence
+- a next-day reply sweep checklist
 ```
+
+### 3. Fork and customize it
+
+Fork this repo and adapt the skill for your own voice, industry, and boundaries:
+
+- preferred tone and comment length
+- banned phrases
+- industry examples
+- DM style
+- who to contact or avoid
+- posting cadence
+- verification rules
+
 
 ## Important note
 
