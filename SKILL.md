@@ -52,11 +52,12 @@ A strong personal LinkedIn reply should feel like a smart colleague texting in p
 
 Recommended format:
 
-- 2-3 sentences
-- 40-80 words for comments
+- 1 sentence by default, usually 5-18 words for quick replies
+- 2-3 short sentences only when the thread genuinely needs nuance
 - One clear idea per comment
-- Start with a small connector before adding a sharper point
-- Use two short paragraphs when there are two beats: agreement + nuance, observation + prediction, or frame + mechanism
+- Use natural capitalization, especially at the start of a sentence. Do not force all-lowercase as a humanization trick.
+- Start with a small connector only when it sounds natural
+- Keep the structure simple. Prefer direct agreement or emphasis over overbuilt contrast.
 
 Connector examples:
 
@@ -67,7 +68,6 @@ Connector examples:
 - `The missing layer is...`
 - `The incentive problem is...`
 - `I'd separate two things here:`
-- `The hard part is not X, it's Y.`
 - `This gets harder when...`
 - `Exactly, and...`
 - `I'd push this further:`
@@ -88,6 +88,8 @@ Avoid phrases and behaviors that make comments look automated or low-signal:
 - `unlock the potential`
 - `X is the new Y`
 - `not just X, but Y`
+- `this is X, not Y`
+- `the hidden cost is X, not Y`
 - hashtags
 - engagement-bait
 - overt link-dropping
@@ -96,6 +98,18 @@ Avoid phrases and behaviors that make comments look automated or low-signal:
 - self-promotion unless directly relevant
 
 Rule of thumb: if the comment could appear under any post, rewrite it.
+
+## Alice-style quick reply corrections
+
+For Alice's personal LinkedIn replies, do not make comments look artificially lowercase or over-structured. Use normal sentence-start capitalization and keep the core idea direct.
+
+Good corrected patterns:
+
+- `Exactly! the hidden cost is the spread indeed`
+- `Yes! the real test is when chain abstraction disappears into default user flows.`
+- `Trust imo. cheaper software makes proof and reliability the actual moat.`
+
+Avoid turning simple agreement into `X, not Y` contrast when the second half is unnecessary.
 
 ## Post-Publication Engagement Workflow
 
