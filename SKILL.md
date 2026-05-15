@@ -129,6 +129,13 @@ Use this after a post goes out from the user's personal LinkedIn page.
    - Search around the live post's core themes.
    - Prefer posts with active comments and authors in adjacent audiences.
    - Prioritize people who are likely to care about the topic: founders, operators, marketers, product leaders, investors, builders, researchers, analysts, or community leaders depending on the topic.
+   - Use the adjacent-account filter before commenting:
+     - Topic fit: active post theme match, e.g. AI pricing, AI agents, SaaS/GTM, Web3 infrastructure, DeFi/payments, AI search/discoverability.
+     - Audience fit: founders, PMM/GTM/product operators, AI/Web3 infra builders, VCs/advisors, analysts, data/API people, credible local/network contacts.
+     - Conversation potential: recent post with enough comments/reactions to join, but not pure viral noise.
+     - Relationship value: prioritize 1st/2nd degree and credible 3rd-degree accounts likely to respond or remember the user.
+     - Brand safety: skip previous founders, ex-employers, founders the user worked for, spammy gurus, engagement bait, and accounts where the only possible reply is generic praise.
+     - Comment specificity: only post if the comment can add a mechanism, reframe, prediction, or useful question.
 
 4. **Draft mechanism/reframe/question-based comments**
    - Each comment should add something real: a mechanism, example, tradeoff, reframe, prediction, or question.
